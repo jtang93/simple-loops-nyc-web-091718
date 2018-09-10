@@ -32,7 +32,7 @@ def while_iterator(number_of_times)
   x = 1
   while x <= number_of_times
     puts phrase
-    x =+ 1
+    x += 1
   end
 end
 
